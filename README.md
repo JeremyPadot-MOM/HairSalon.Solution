@@ -77,7 +77,7 @@ CREATE DATABASE `jeremy_padot`
 ```
 11. CREATE TABLE 
 ```sh
-  `stylists` (
+  `stylists` x
   `StylistId` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(45) DEFAULT NULL,
    PRIMARY KEY (`StylistId`)
@@ -107,6 +107,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * Macbook Pro
 * MVC
 * Mr. Squiggles
+* MYSQLWorkBench
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
