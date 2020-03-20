@@ -105,9 +105,12 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * Git
 * VS Code
 * Macbook Pro
-* MVC
+* MVC 2.2
 * Mr. Squiggles
-* MYSQLWorkBench
+* MYSQLWorkBench 8.0.15
+* MYSQL
+* ASP.NET Core
+* Entity Framework Core
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
