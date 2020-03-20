@@ -6,10 +6,10 @@
 
 <h2>Are you sure you want to delete this?</h2>
 
-@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)
+@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
 @using (Html.BeginForm())
 {
   <input type="submit" value="Delete" />
 }
-@* <p>@Html.ActionLink("Delete Item", "Delete", new { id = Model.ClientId })</p>. *@
+<p>@Html.ActionLink("Delete Client", "Delete", new { id = Model.ClientId })</p>.
 @Html.ActionLink("Back to List", "Index")
