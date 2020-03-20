@@ -17,11 +17,13 @@ _An MVC application for Eau Claire's Salon. This application will allow the salo
 
 | Behavior | Input | Output |
 |:---|:---:|:---:|
-| Application will display a home page in which the user may choose to view or create a new Stylist | Home | "New Stylist", "View Stylists" |
+| Application will display a home page in which the user may choose to view or create a new Stylist or Add Client to an existing stylist | Home | "New Stylist", "View Stylists", "Add Client" |
 | Application will suggest to redirect to Home Page if no Stylists have been added | Click: "View Stylists" | "No stylists have been added yet" Link: Return Home |
 | Application will allow user to select view Stylists and recieve a list of Stylists | Click: "View Stylists" | "Stylists:" "Stylist1", "Stylist2", OR "Add New Stylist"  |
 | When user clicks "Add Stylist", they are directed to a for to add new stylist  | Click: "Add Stylist" | "Add A New Stylist" Name: "Input Name" |
-| When a User adds a new Stylist Name they are directed back to the Stylists Index page | Name: "Haru", Click: Submit | Stylists: "Haru" |
+| When a User adds a new Stylist Name they are directed back to the Stylists Index page | Name: "Input Name", Click: Submit | Stylists: "Haru" |
+| When user clicks "Add Client" they will be directed to a client form | Click: "Add new Client | "Add New Client:" Name: "Input Name" |
+| In "Add New Client", User will need to assign Client to a Stylist | Click Stylist Dropdown: "Name" / Click: " "Add New Client"   | "Clients" Client: "Name" / Stylist: "Name" |
 
 
 
