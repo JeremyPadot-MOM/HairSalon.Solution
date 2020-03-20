@@ -63,6 +63,30 @@ dotnet run
 ```sh
 http://localhost:5000
 ```
+9. MySQL:
+```sh
+CREATE DATABASE `jeremy_padot` 
+ ```
+10. CREATE TABLE
+```sh
+  `clients` 
+  `ClientId` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(45) DEFAULT NULL,
+  `StylistId` int(11) DEFAULT '0',
+   PRIMARY KEY (`ClientId`)
+```
+11. CREATE TABLE 
+```sh
+  `stylists` (
+  `StylistId` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(45) DEFAULT NULL,
+   PRIMARY KEY (`StylistId`)
+```
+
+
+
+
+
 
 
 ## Known Bugs
