@@ -7,9 +7,9 @@
 
 ## Description
 
-_An MVC application for Eau Claire's Salon. This application will allow the salon owner to keep track of stylists and clients. Each stylists will have a unique set of clients that match their speciality. _
+_An MVC application for Eau Claire's Salon. Styling is based on Patrick Nagel's art and influence on the 1980's fashion and salon culture. This application will allow the salon owner to keep track of stylists and clients. Each stylists will have a unique set of clients that match their speciality. _
 
-![Landing Page Preview]()
+![Landing Page Preview](https://images.curiator.com/images/t_x/art/a3944dc3b3622b098a9e6d1bae7efbba/patrick-nagel-untitled.jpg)
 
 
 
