@@ -4,26 +4,27 @@
     <meta charset="utf-8">
     <title>Hair Salon</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">Hair Salon</a>
+      <a class="navbar-brand" href="/">Haru's Hair Salon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="/stylists">Stylists</a>
-          <a class="nav-item nav-link" href="/clients">Clients</a>
-          <a class="nav-item nav-link" href="/stylists/create">Add Stylist</a>
-          <a class="nav-item nav-link" href="/clients/create">Add Client</a>
-          <a class="nav-item nav-link" href="#">About</a>
+          <a id="pink" class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+          <a id="pink" class="nav-item nav-link pink" href="/stylists">Stylists</a>
+          <a id="pink" class="nav-item nav-link" href="/clients">Clients</a>
+          <a id="pink" class="nav-item nav-link" href="/stylists/create">Add Stylist</a>
+          <a id="pink" class="nav-item nav-link" href="/clients/create">Add Client</a>
+          <a id="pink" class="nav-item nav-link" href="#">About</a>
         </div>
       </div>
     </nav>
     @RenderBody()
   </body>
 </html>
+

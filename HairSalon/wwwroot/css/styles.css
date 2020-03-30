@@ -1,0 +1,120 @@
+body {
+  font-family: 'Permanent Marker', cursive;
+  /* background: url("~/img/bg1.png"); */
+  background-image: url('../img/bgog.jpeg');
+  /* background-position: center, left; */
+  /* background-repeat : no-repeat;
+  background-size: inherit; */
+  /* background-image:url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX25255066.jpg"); */
+  text-align: center;
+}
+
+h1  {
+text-align: center;
+/* color:rgb(250, 137, 231); */
+color: rgb(245, 76, 76);
+font-size: 63px;
+margin-top: 40px
+} 
+
+h4 {
+  text-align: center;
+/* color:rgb(250, 137, 231); */
+color: rgb(245, 76, 76);
+font-size: 63px;
+margin-top: 40px
+}
+
+#pink {
+/* color: rgb(252, 104, 227); */
+color: rgb(245, 76, 76);
+} 
+
+.center {
+  display: block;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  width: 50%;
+}
+p {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(252, 104, 227);
+  /* background-image: url('../img/dots.jpeg'); */
+}
+a {
+  color: rgb(245, 76, 76);
+
+}
+
+/* .dots1 {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+} */
+
+.dots1 {
+  float: left;
+  margin-left: 50%;
+  margin-right: 1px;
+  width: 4%;
+}
+
+#inputs {
+  text-align: center;
+  color: rgb(245, 76, 76);
+  font-size: 30px;
+}
+
+/* input {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+} */
+
+label {
+font-size: 26px;
+color: rgb(245, 76, 76);
+/* padding-top: 10px; */
+}
+
+#StylistId {
+  font-size: 23px;
+}
+
+#Name {
+  font-size: 23px;
+}
+
+#inputs {
+  margin-top: 20px;
+  color: rgb(245, 76, 76);
+  /* border: turquoise;
+  border-style: solid; */
+}
+.btn {
+  /* border: turquoise; */
+  /* border-style: solid; */
+  /* width:30%;
+  background-color: rgb(69, 224, 209,0.5); */
+  /* opacity: 0.5; */
+}
+
+li {
+  
+  font-size: 26px;
+  color: rgb(245, 76, 76);
+  background-color: rgb(69, 224, 209,0.5);
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+}

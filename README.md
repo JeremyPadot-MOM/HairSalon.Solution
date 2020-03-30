@@ -65,23 +65,26 @@ http://localhost:5000
 ```
 9. MySQL:
 ```sh
-DATABASE `jeremy_padot` 
+CREATE DATABASE `jeremy_padot` 
  ```
-10. CREATE TABLE
+10. Create Table:
 ```sh
-  `clients` 
+ CREATE TABLE `clients` (
   `ClientId` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(45) DEFAULT NULL,
   `StylistId` int(11) DEFAULT '0',
-   PRIMARY KEY (`ClientId`)
+  PRIMARY KEY (`ClientId`)
+);
 ```
-11. CREATE TABLE 
+11. Create Table:
 ```sh
-  `stylists` x
+ CREATE TABLE `stylists` (
   `StylistId` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(45) DEFAULT NULL,
-   PRIMARY KEY (`StylistId`)
+  PRIMARY KEY (`StylistId`)
+);
 ```
+
 
 
 

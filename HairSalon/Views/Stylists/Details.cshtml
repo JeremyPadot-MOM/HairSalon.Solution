@@ -5,14 +5,14 @@
 @using HairSalon.Models;
 @model HairSalon.Models.Stylist;
 
-<h2>Stylist Details</h2>
+<h4>Stylist Details</h4>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+<h4>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h4>
 
 <ul>
 @if (@Model.Clients.Count == 0)
 {
-  <p>no clients found</p>
+  <h4>no clients found</h4>
 }
 
 @foreach (Client client in @Model.Clients)
@@ -20,7 +20,7 @@
   <li>Name: @client.Name</li>
 }
 </ul>
-<!-- <p>@Html.ActionLink("Add new Client", "Create")</p> -->
+
 <p>@Html.ActionLink("Back to Stylists", "Index")</p>
 <p>@Html.ActionLink("Edit Stylists", "Edit", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
