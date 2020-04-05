@@ -65,7 +65,7 @@ http://localhost:5000
 ```
 9. MySQL:
 ```sh
-CREATE DATABASE `jeremy_padot` ;
+CREATE DATABASE `jeremy_padot`;
 USE `jeremy_padot`;
  ```
 10. Create Table:
