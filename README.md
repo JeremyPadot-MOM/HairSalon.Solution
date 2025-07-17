@@ -2,7 +2,6 @@
 
 #### _A C# MVC Application, friday code review. March 20, 2020_
 
-#### By _**Jeremy Kale Padot**_
 
 
 ## Description
